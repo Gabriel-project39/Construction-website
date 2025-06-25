@@ -15,3 +15,15 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.nav logo{
+    display: flex;
+    align-items: center;
+    column-gap: 25rem;
+}
+
+.nav logo span{
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
