@@ -4,7 +4,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: var(--black-color);
+    background-color: black;
     z-index: var(--z-fixed);
 }
 
@@ -16,14 +16,23 @@
     align-items: center;
 }
 
-.nav logo{
+.nav .logo{
     display: flex;
     align-items: center;
     column-gap: 25rem;
 }
 
-.nav logo span{
+.nav .logo span{
     color: var(--white-color);
     font-weight: var(--font-semi-bold);
     transition: color .4s;
+}
+
+.nav .logo i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+#menu-toggle {
+  display: none;
 }
