@@ -6,11 +6,20 @@
 }
 /*--header---*/
 .header{
-    background: var(--black-border);
+    background: var(--primary-color);
+}
+
+.navbar{
+    background-color: black;
 }
 
 ul {
    list-style: none;
+   ;
+}
+
+a {
+    text-decoration: none;
 }
 .nav{
     position: relative;
