@@ -21,6 +21,23 @@ ul {
 a {
     text-decoration: none;
 }
+
+.button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
 .navbar .nav-logo .logo-text{
     color: white;
 }
@@ -29,6 +46,11 @@ a {
     color: white;
 }
 
+.button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
 .nav .logo span{
     color: var(--white-color);
     font-weight: var(--font-semi-bold);
