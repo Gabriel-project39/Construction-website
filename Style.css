@@ -1,13 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 /*--header---*/
 .header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    z-index: var(--z-fixed);
+    background: var(--black-border);
 }
 
+ul {
+   list-style: none;
+}
 .nav{
     position: relative;
     height: var(--header-height);
