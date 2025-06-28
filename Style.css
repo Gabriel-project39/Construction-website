@@ -21,18 +21,12 @@ ul {
 a {
     text-decoration: none;
 }
-.nav{
-    position: relative;
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar .nav-logo .logo-text{
+    color: white;
 }
 
-.nav .logo{
-    display: flex;
-    align-items: center;
-    column-gap: 25rem;
+.navbar .nav-menu .nav-link{
+    color: white;
 }
 
 .nav .logo span{
