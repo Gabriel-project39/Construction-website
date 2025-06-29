@@ -15,7 +15,7 @@
 
 ul {
    list-style: none;
-   ;
+   
 }
 
 a {
@@ -36,7 +36,8 @@ header .navbar{
 
 .navbar .nav-menu{
     display: flex;
-    gap: 10px;
+    gap: 60px;
+    
 }
 .navbar .nav-logo .logo-text{
     color: white;
