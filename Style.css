@@ -36,7 +36,7 @@ header .navbar{
 
 .navbar .nav-menu{
     display: flex;
-    gap: 60px;
+    gap: 50px;
     
 }
 .navbar .nav-logo .logo-text{
