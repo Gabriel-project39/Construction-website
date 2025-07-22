@@ -129,3 +129,13 @@ header .navbar{
       top: 30px;
     }
 }
+
+#menu-open-button {
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+
