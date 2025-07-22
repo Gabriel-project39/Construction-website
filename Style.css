@@ -130,12 +130,50 @@ header .navbar{
     }
 }
 
-#menu-open-button {
+/* Buttons default (mobile) */
+#menu-open-button,
+#menu-close-button {
   font-size: 30px;
   cursor: pointer;
   background: none;
   border: none;
+}
+
+#menu-open-button {
   color: white;
 }
+
+#menu-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+}
+
+/* Desktop view: show menu, hide buttons */
+@media screen and (min-width: 768px) {
+  #menu-open-button,
+  #menu-close-button {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex !important;
+    position: static;
+    background: none;
+    border: none;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline;
+  }
+}
+
+
+
 
 

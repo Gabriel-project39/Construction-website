@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const openBtn = document.getElementById("menu-open-button");
-  const closeBtn = document.getElementById("menu-close-button");
-  const menu = document.getElementById("menu");
+  const menuOpenBtn = document.getElementById("menu-open-button");
+  const menuCloseBtn = document.getElementById("menu-close-button");
+  const navMenu = document.getElementById("nav-menu");
 
-  openBtn.addEventListener("click", () => {
-    menu.style.display = "block";
+  menuOpenBtn.addEventListener("click", () => {
+    navMenu.style.display = "block";
   });
 
-  closeBtn.addEventListener("click", () => {
-    menu.style.display = "none";
+  menuCloseBtn.addEventListener("click", () => {
+    navMenu.style.display = "none";
   });
 });
-
