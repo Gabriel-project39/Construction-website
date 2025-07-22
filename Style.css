@@ -109,13 +109,17 @@ header .navbar{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 100px;
         background: white;
+        gap: 30px;
+        padding-top: 190px;
+        padding-left: 100px;
+        
     }
 
     .navbar .nav-menu .nav-link{
         color: black;
         display: block;
+        margin-top: 30px;
         font-size: medium;
     }
 
