@@ -55,12 +55,6 @@ header .navbar{
   transition: background-color 0.3s ease;
 }
 
-
-.button {
-    cursor: pointer;
-    border: none;
-    background: none;
-}
 .nav .logo span{
     color: var(--white-color);
     font-weight: var(--font-semi-bold);
