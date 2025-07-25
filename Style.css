@@ -47,6 +47,7 @@ header .navbar{
     color: white;
 }
 
+
 .button {
     cursor: pointer;
     border: none;
@@ -125,6 +126,8 @@ header .navbar{
 
  
 }
+
+
 
 /* Buttons default (mobile) */
 #menu-open-button,
