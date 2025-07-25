@@ -47,6 +47,14 @@ header .navbar{
     color: white;
 }
 
+.nav-menu .nav-link:hover {
+  background-color: #cce0ff;  /* Lighter blue on hover */
+  color: #000;                /* Optional: keep text black */
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
 
 .button {
     cursor: pointer;
