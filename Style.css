@@ -185,6 +185,26 @@ header .navbar{
   color: var(--white-color);
 }
 
+.button-link{
+  display: flex;
+  align-items: center;
+  column-gap: 25rem;
+  color: #ffffff;
+}
+
+.button_link span{
+    font-weight: 400;
+}
+
+.button-link i{
+    font-size: 1.5rem;
+    transition: transform .4s;
+}
+
+.button-link:hover i{
+    transform: translateX(.25rem);
+}
+
 /*--Home--*/
 .home{
     position: relative;
