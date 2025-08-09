@@ -205,3 +205,24 @@ header .navbar{
 .home-data{
     text-align: center;
 }
+
+.home-tittle{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+}
+
+.home-description{
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    font-size: larger;
+
+}
+
+.home-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
