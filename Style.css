@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 
 /*--header---*/
@@ -184,3 +185,23 @@ header .navbar{
   color: var(--white-color);
 }
 
+/*--Home--*/
+.home{
+    position: relative;
+    
+}
+
+.home-container{
+    background-color: #111111; 
+    row-gap: 3rem;
+    padding-block: 2.5rem 6rem;
+
+}
+
+.home-content{
+    row-gap: 2.5rem;
+}
+
+.home-data{
+    text-align: center;
+}
