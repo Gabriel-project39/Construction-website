@@ -186,14 +186,14 @@ header .navbar{
 }
 
 .button-link{
-  display: flex;
+  display: ;
   align-items: center;
   column-gap: 25rem;
   color: #ffffff;
 }
 
 .button_link span{
-    font-weight: 400;
+    font-weight: 4;
 }
 
 .button-link i{
@@ -245,4 +245,40 @@ header .navbar{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.home-info{
+    display: flex;
+    justify-content: center;
+    column-gap: 4.9rem;
+}
+
+.home-info-tittle{
+    color: yellow;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.home-info-description{
+    font-size: small;
+    color: white;
+}
+
+.home-images{
+    position: relative;
+    justify-self: center;
+}
+
+.home-img-1{
+    width: 250px;
+    margin-left: 3.5rem;
+}
+
+.home-img-2{
+  width: 150px;
+  border: 5px solid var(--black-color);
+  position: absolute;
+  left: 0;
+  bottom: -3.5rem;
 }
