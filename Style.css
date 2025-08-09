@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 /*--header---*/
 .header{
     background: var(--primary-color);
@@ -20,12 +21,6 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-.button {
-    cursor: pointer;
-    border: none;
-    background: none;
 }
 
 header .navbar{
@@ -172,7 +167,16 @@ header .navbar{
  
 }
 
-
-
+/*--Button--*/
+.button {
+    cursor: pointer;
+    border: none;
+    background: #ff5507;
+    display: inline-flex;
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 2rem;
+    transition: box-shadow .4s;
+}
 
 
