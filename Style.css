@@ -414,4 +414,11 @@ about-img-2{
     margin-block: .5rem;
  }
 
+ .projects-date{
+    display: block;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 2.9rem;
+ }
+
 
