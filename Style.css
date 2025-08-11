@@ -377,5 +377,32 @@ about-img-2{
     margin-bottom: 1.5rem;
 }
 
+ /*--Projects --*/
+ .section-subtitle{
+    color: #f0740e;
+ }
 
+ .projects{
+    background-color: black;
+ }
+
+ .projects .section-title{
+    color: white;
+ }
+
+ .projects-container{
+    padding-block: 1.5rem 3rem;
+ }
+
+ .projects-card{
+    background-color: #f5f5f5;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: border-color .4s;
+ }
+
+ .projects-card:hover{
+    border-color: #ff4d4d;
+ }
+ 
 
