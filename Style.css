@@ -404,5 +404,14 @@ about-img-2{
  .projects-card:hover{
     border-color: #ff4d4d;
  }
- 
+  
+ .projects-data{
+    padding: 1.9rem 2rem 3rem;
+ }
+
+ .projects-title{
+    font-size: larger;
+    margin-block: .5rem;
+ }
+
 
