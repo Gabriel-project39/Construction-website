@@ -505,6 +505,7 @@ contact-data{
     row-gap: 4rem;
     padding-bottom: 4rem;
     border-bottom: 1px solid black;
+    margin: 20px;
 }
 
 .footer-logo{
@@ -521,6 +522,51 @@ contact-data{
 
 .footer-logo i{
     color: #ff4d4d;
+    font-size: 1.5rem;
 }
 
+.footer-description{
+    margin-block: 2rem;
+}
 
+.footer-email,
+.footer-info{
+    font-style: normal;
+    
+}
+
+.footer-email{
+    padding: 20px;
+}
+
+.footer-content{
+    grid-template-columns: repeat(2, max-content);
+    gap: 6rem 3rem;
+    display: grid;
+}
+
+.footer-title{
+    font-size: large;
+    color: white;
+    margin-bottom: 1rem; 
+}
+
+.footer-links
+.footer-list{
+    display: grid;
+    row-gap: .5rem;
+}
+
+.footer-link{
+    color: white;
+    transition: color .4s;
+}
+
+.footer-link:hover{
+    color: #ff5507;
+}
+
+.footer-social{
+    display: flex;
+    column-gap: 1rem;
+}
