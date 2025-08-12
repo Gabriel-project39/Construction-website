@@ -493,3 +493,34 @@ contact-data{
 }
 
 
+/*--Footer--*/
+.footer{
+    background-color: #222222;
+    color: white;
+    padding-block: 3.5rem 2rem;
+    
+}
+
+.footer-container{
+    row-gap: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid black;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: centre;
+    column-gap: .25rem;
+}
+
+.footer-logo span{
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.footer-logo i{
+    color: #ff4d4d;
+}
+
+
