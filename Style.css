@@ -44,7 +44,7 @@ header .navbar{
 }
 
 .nav-menu .nav-link:hover {
-  background-color: #cce0ff;  /* Lighter blue on hover */
+  background-color: #fa881e;  /* Lighter blue on hover */
   color: #000;                /* Optional: keep text black */
   padding: 10px;
   border-radius: 5px;
@@ -70,14 +70,15 @@ header .navbar{
 @media screen and (max-width: 1150px){
     .nav menu{
         position: fixed;
+        background-color: black;
         top: 0;
         right: 0;
-        background-color: black;
         width: 80%;
         height: 100%;
         padding: 7.5rem 3.5rem 0;
         border-left: 2px solid var(--black-border);
         transition: right .4s;
+        
     }
 }
 .nav list{
@@ -112,11 +113,12 @@ header .navbar{
         gap: 30px;
         padding-top: 190px;
         padding-left: 100px;
+        background-color: black;
         
     }
 
     .navbar .nav-menu .nav-link{
-        color: black;
+        color: white;
         display: block;
         margin-top: 30px;
         font-size: medium;
@@ -144,7 +146,7 @@ header .navbar{
   position: absolute;
   top: 10px;
   right: 10px;
-  color: black;
+  color: white;
 }
 
 /* Desktop view: show menu, hide buttons */
@@ -635,4 +637,81 @@ header .navbar{
     text-align: center;
     font-size: large;
     margin-top: 10px;
+}
+
+/*--Breakpoints--*/
+@media screen and (max-width: 340px){
+    .container{
+        margin-inline: 1rem;
+    }
+
+    .section-title{
+        font-size: 1.25rem;
+    }
+
+    .home-title{
+        font-size: 1.75rem;
+    }
+
+    .home-buttons{
+        flex-direction: column;
+    }
+
+     .home-img-1{
+           width: 200px;
+           margin-left: 1.5rem;
+     }
+
+     .abouut list{
+        grid-template-columns: repeat(1, 200px);
+     }
+
+     .about-img-1{
+        width: 150px;
+        left: 4rem;
+     }
+
+     .about-img-2{
+        width: 200px;
+        margin-right: 0%;
+     }
+
+     .footer-content{
+        grid-template-columns: repeat(1, max-content);
+     }
+} 
+
+/*--For medium devices--*/
+@media screen and (min-width: 540px){
+    .home-container,
+    .about-container,
+    .services-container,
+    .projects-container,
+    .Contact-container{
+        grid-template-columns: 360px;
+        justify-content: center;
+    }
+
+    .footer-content{
+        grid-template-columns: repeat(3, max-content);
+    }
+}
+
+@media screen and(min-width: 768px){
+  .nav-menu{
+    width: 50%;
+  }  
+
+  .projects-container{
+    grid-template-columns: repeat(2, 330px);
+  }
+
+  .contact-data{
+    grid-template-columns: repeat(2, 240px);
+  }
+
+  .footer-container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
 }
