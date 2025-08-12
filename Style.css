@@ -187,7 +187,6 @@ header .navbar{
 }
 
 .button-link{
-  display: ;
   align-items: center;
   column-gap: 25rem;
   color: #ffffff;
@@ -329,10 +328,57 @@ header .navbar{
     left: 6rem;
 }
 
-about-img-2{
+.about-img-2{
     width: 500px;
     margin-right: 2.5rem;
 }
+
+.services-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.services-track {
+  display: flex;
+  animation: scrollLoop 15s linear infinite; /* continuous motion */
+}
+
+.services-card {
+  flex: 0 0 calc(33.333% - 1rem);
+  margin: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Hide scrollbar */
+.services-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.services-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Continuous scrolling animation */
+@keyframes scrollLoop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* move half length (because we duplicate cards) */
+}
+
+/* Responsive for tablets */
+@media (max-width: 900px) {
+  .services-card {
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .services-card {
+    flex: 0 0 100%;
+  }
+}
+
+
 
 /*--Services --*/
 .services{
@@ -376,6 +422,9 @@ about-img-2{
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
+
+
+
 
  /*--Projects --*/
  .section-subtitle{
@@ -434,7 +483,7 @@ about-img-2{
 
 }
 
-contact-data{
+.contact-data{
     grid-template-columns: 239px;
     justify-content: center;
     row-gap: 1.5rem;
@@ -569,4 +618,21 @@ contact-data{
 .footer-social{
     display: flex;
     column-gap: 1rem;
+}
+
+.footer-social {
+    font-size: 1.5rem;
+    color: #ff4d4d;
+    transition: transform .4s;
+}
+
+.footer-social link:hover{
+    transform: translateY(-.25rem);
+}
+
+.footer-copy{
+    display: block;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
 }
