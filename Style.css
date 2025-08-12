@@ -488,5 +488,7 @@ contact-data{
     transition: transform .4s;
 }
 
-.contact-social
+.contact-social link:hover{
+    transform: translateY(-25rem)
+}
 
