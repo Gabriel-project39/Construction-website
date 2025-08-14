@@ -114,6 +114,7 @@ header .navbar{
         padding-top: 190px;
         padding-left: 100px;
         background-color: black;
+        z-index: 4;
         
     }
 
@@ -122,11 +123,14 @@ header .navbar{
         display: block;
         margin-top: 30px;
         font-size: medium;
-    }
-
- 
+    }  
+    
+    .home-images{
+    position: relative;
+    justify-self: center;
+    z-index: -0.5;
 }
-
+}
 
 
 /* Buttons default (mobile) */
